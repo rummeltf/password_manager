@@ -49,7 +49,7 @@ def add_password():
                 # if you want to have unique emails or usernames, uncomment out the above line and comment out line 77
                 password_input.delete(0, "end")
 
-# GUI setup
+# Tkinter GUI setup
 
 window = tk.Tk()
 window.title("MyPass Password Manager")
