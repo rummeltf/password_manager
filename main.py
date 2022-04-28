@@ -46,7 +46,7 @@ def add_password():
                 pw_file.write(f"{website}\n{email_username}\n{password}\n\n")
                 website_input.delete(0, "end")
                 # email_username_input.delete(0, "end") 
-                # if you want to have unique emails or usernames, uncomment out the above line and comment out line 75
+                # if you want to have unique emails or usernames, uncomment out the above line and comment out line 77
                 password_input.delete(0, "end")
 
 # GUI setup
